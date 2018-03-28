@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhangqirong.webmagic.mapper.BusChapterMapper" >
+  <resultMap id="BaseResultMap" type="com.zhangqirong.webmagic.model.BusChapter" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="chapter_id" property="chapterId" jdbcType="VARCHAR" />
+    <result column="novel_id" property="novelId" jdbcType="INTEGER" />
+    <result column="chapter_name" property="chapterName" jdbcType="VARCHAR" />
+    <result column="word_count" property="wordCount" jdbcType="INTEGER" />
+    <result column="ord_by" property="ordBy" jdbcType="INTEGER" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="remarks" property="remarks" jdbcType="VARCHAR" />
+    <result column="del_flag" property="delFlag" jdbcType="CHAR" />
+    <result column="chapter_content" property="chapterContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>
